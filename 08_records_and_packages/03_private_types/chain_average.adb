@@ -7,6 +7,12 @@
 --  Сделайте пакет с закрытым типом, в котором хранятся сумма и количество чисел, процедурой `Add` и
 --  функцией, которая возвращает среднее.
 
+--  Как запустить (из корня репозитория):
+--
+--     cd 08_records_and_packages/03_private_types
+--     gnatmake chain_average.adb
+--     ./chain_average
+
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Chain_Average is

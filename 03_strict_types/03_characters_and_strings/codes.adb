@@ -3,6 +3,12 @@
 --  Сложите коды первой и последней буквы строки `"Lovelace"` и умножьте сумму на длину этой строки.
 --  Напишите программу, которая выводит результат.
 
+--  Как запустить (из корня репозитория):
+--
+--     cd 03_strict_types/03_characters_and_strings
+--     gnatmake codes.adb
+--     ./codes
+
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Codes is

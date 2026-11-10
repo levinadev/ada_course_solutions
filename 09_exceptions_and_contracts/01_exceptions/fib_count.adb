@@ -5,6 +5,12 @@
 --  очередное число не поместится в тип, возникнет `Constraint_Error`. Перехватите его и выведите,
 --  сколько чисел поместилось, считая обе первые единицы.
 
+--  Как запустить (из корня репозитория):
+--
+--     cd 09_exceptions_and_contracts/01_exceptions
+--     gnatmake fib_count.adb
+--     ./fib_count
+
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Fib_Count is

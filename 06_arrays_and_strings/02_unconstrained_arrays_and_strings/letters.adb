@@ -3,6 +3,12 @@
 --  Сколько раз встречается самая частая буква в строке `"the analytical engine of charles
 --  babbage"`? Пробелы не считайте. Напишите программу, которая это посчитает.
 
+--  Как запустить (из корня репозитория):
+--
+--     cd 06_arrays_and_strings/02_unconstrained_arrays_and_strings
+--     gnatmake letters.adb
+--     ./letters
+
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Letters is

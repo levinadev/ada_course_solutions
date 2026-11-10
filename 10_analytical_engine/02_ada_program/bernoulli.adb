@@ -3,6 +3,12 @@
 --  Измените программу урока так, чтобы она нашла числа Бернулли до B17 включительно. Выведите B17,
 --  округлённое до целого через `Integer`.
 
+--  Как запустить (из корня репозитория):
+--
+--     cd 10_analytical_engine/02_ada_program
+--     gnatmake bernoulli.adb
+--     ./bernoulli
+
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Bernoulli is

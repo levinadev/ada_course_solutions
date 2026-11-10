@@ -3,6 +3,12 @@
 --  Поезд проехал 1843 км за 9 часов. Напишите программу, которая выводит его среднюю скорость в
 --  км/ч, округлённую до целого так, как округляет Ada.
 
+--  Как запустить (из корня репозитория):
+--
+--     cd 03_strict_types/02_integers_and_floats
+--     gnatmake speed.adb
+--     ./speed
+
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Speed is
