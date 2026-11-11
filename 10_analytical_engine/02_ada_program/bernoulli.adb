@@ -3,10 +3,16 @@
 --  Измените программу урока так, чтобы она нашла числа Бернулли до B17 включительно. Выведите B17,
 --  округлённое до целого через `Integer`.
 
---  Как запустить (из корня репозитория):
+--  Как запустить в Linux (из корня репозитория):
 --
 --     cd 10_analytical_engine/02_ada_program
 --     gnatmake bernoulli.adb
+--     ./bernoulli
+--
+--  В Windows и macOS скопируйте файл в папку проекта Alire из урока 2.2 (ada_course)
+--  и запустите там:
+--
+--     alr exec -- gnatmake bernoulli.adb
 --     ./bernoulli
 
 with Ada.Text_IO; use Ada.Text_IO;

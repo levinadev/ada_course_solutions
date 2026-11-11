@@ -4,10 +4,16 @@
 --  подтип `Leap_Year` от `Positive` с таким `Dynamic_Predicate`. Посчитайте, сколько високосных лет
 --  с 1815 года, когда родилась Ада Лавлейс, по 2026 год включительно.
 
---  Как запустить (из корня репозитория):
+--  Как запустить в Linux (из корня репозитория):
 --
 --     cd 09_exceptions_and_contracts/03_type_predicates
 --     gnatmake leap_count.adb
+--     ./leap_count
+--
+--  В Windows и macOS скопируйте файл в папку проекта Alire из урока 2.2 (ada_course)
+--  и запустите там:
+--
+--     alr exec -- gnatmake leap_count.adb
 --     ./leap_count
 
 with Ada.Text_IO; use Ada.Text_IO;

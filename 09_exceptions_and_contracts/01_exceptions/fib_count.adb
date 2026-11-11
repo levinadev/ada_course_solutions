@@ -5,10 +5,16 @@
 --  очередное число не поместится в тип, возникнет `Constraint_Error`. Перехватите его и выведите,
 --  сколько чисел поместилось, считая обе первые единицы.
 
---  Как запустить (из корня репозитория):
+--  Как запустить в Linux (из корня репозитория):
 --
 --     cd 09_exceptions_and_contracts/01_exceptions
 --     gnatmake fib_count.adb
+--     ./fib_count
+--
+--  В Windows и macOS скопируйте файл в папку проекта Alire из урока 2.2 (ada_course)
+--  и запустите там:
+--
+--     alr exec -- gnatmake fib_count.adb
 --     ./fib_count
 
 with Ada.Text_IO; use Ada.Text_IO;

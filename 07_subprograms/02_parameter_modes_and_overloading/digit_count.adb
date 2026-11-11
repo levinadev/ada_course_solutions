@@ -4,10 +4,16 @@
 --  само 1843? Напишите функцию, которая возвращает сумму цифр числа, и программу, которая с её
 --  помощью это посчитает.
 
---  Как запустить (из корня репозитория):
+--  Как запустить в Linux (из корня репозитория):
 --
 --     cd 07_subprograms/02_parameter_modes_and_overloading
 --     gnatmake digit_count.adb
+--     ./digit_count
+--
+--  В Windows и macOS скопируйте файл в папку проекта Alire из урока 2.2 (ada_course)
+--  и запустите там:
+--
+--     alr exec -- gnatmake digit_count.adb
 --     ./digit_count
 
 with Ada.Text_IO; use Ada.Text_IO;

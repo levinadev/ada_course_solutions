@@ -3,10 +3,16 @@
 --  Сколько чисел от 1 до 1843 делятся на 7, но не делятся на 3? Напишите программу, которая это
 --  посчитает.
 
---  Как запустить (из корня репозитория):
+--  Как запустить в Linux (из корня репозитория):
 --
 --     cd 04_branches_and_loops/02_loops
 --     gnatmake count.adb
+--     ./count
+--
+--  В Windows и macOS скопируйте файл в папку проекта Alire из урока 2.2 (ada_course)
+--  и запустите там:
+--
+--     alr exec -- gnatmake count.adb
 --     ./count
 
 with Ada.Text_IO; use Ada.Text_IO;

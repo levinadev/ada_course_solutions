@@ -3,10 +3,16 @@
 --  Сложите коды первой и последней буквы строки `"Lovelace"` и умножьте сумму на длину этой строки.
 --  Напишите программу, которая выводит результат.
 
---  Как запустить (из корня репозитория):
+--  Как запустить в Linux (из корня репозитория):
 --
 --     cd 03_strict_types/03_characters_and_strings
 --     gnatmake codes.adb
+--     ./codes
+--
+--  В Windows и macOS скопируйте файл в папку проекта Alire из урока 2.2 (ada_course)
+--  и запустите там:
+--
+--     alr exec -- gnatmake codes.adb
 --     ./codes
 
 with Ada.Text_IO; use Ada.Text_IO;
